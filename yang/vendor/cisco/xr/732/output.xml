@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <global-interface-configuration xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ifmgr-cfg">
+    <link-status>default</link-status>
+  </global-interface-configuration>
+  <interface-configurations xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ifmgr-cfg">
+    <interface-configuration>
+      <active/>
+      <interface-name/>
+      <dampening>
+        <args/>
+        <half-life/>
+        <reuse-threshold/>
+        <suppress-threshold/>
+        <suppress-time/>
+        <restart-penalty/>
+      </dampening>
+      <mtus>
+        <mtu>
+          <owner/>
+          <mtu/>
+        </mtu>
+      </mtus>
+      <encapsulation>
+        <encapsulation/>
+        <capsulation-options/>
+      </encapsulation>
+      <shutdown/>
+      <interface-virtual/>
+      <secondary-admin-state/>
+      <interface-mode-non-physical>default</interface-mode-non-physical>
+      <bandwidth/>
+      <link-status/>
+      <description/>
+    </interface-configuration>
+  </interface-configurations>
+</data>
